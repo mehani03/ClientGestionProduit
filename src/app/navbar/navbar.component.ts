@@ -18,7 +18,7 @@ export class NavbarComponent implements OnInit {
   }
   afficherSideBar() {
     this.showSideBar = !this.showSideBar;
-    this.showSideBarChange;
+    this.showSideBarChange.emit(this.showSideBar);
 
   }
 
