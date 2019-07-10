@@ -1,4 +1,4 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, OnInit } from '@angular/core';
 import { ProduitMockService } from './produit.mock.service';
 import { Produit } from '../shared/produit';
 import { from } from 'rxjs';

@@ -6,9 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  showhideSideBar: false;
+  showHideSideBar: false;
 
-  onShowHideSideBar(showhideSideBar){
-this.showhideSideBar = this.showhideSideBar;
+  onShowSideBarChange(showHideSideBar) {
+    this.showHideSideBar = showHideSideBar;
   }
 }
