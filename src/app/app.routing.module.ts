@@ -5,8 +5,9 @@ import { ProduitComponent } from './produit/produit.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
 export const appRoutes: Routes = [
+    { path: 'dashboard', component: DashboardComponent },
     { path: 'produit', component: ProduitComponent },
-    { path: 'dashboard', component: DashboardComponent }
+    { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
 
 ];
 

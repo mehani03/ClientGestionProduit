@@ -18,5 +18,7 @@ export class ProduitMockService {
         return this.PRODUITS;
     }
 
+    
 
-}
+
+} 

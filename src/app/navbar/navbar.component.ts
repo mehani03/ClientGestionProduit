@@ -17,7 +17,10 @@ export class NavbarComponent implements OnInit {
   ngOnInit() {
   }
 
-  afficherSideBar() {
+  afficherSideBar(event) {
+    if (event) {
+      event.preventDefault();
+    }
     this.showSideBar = !this.showSideBar;
     this.showSideBarChange.emit(this.showSideBar);
   }
